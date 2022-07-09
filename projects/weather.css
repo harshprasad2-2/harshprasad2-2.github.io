@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+/* css for container of calculator */
+*{
+    margin: auto;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Arima', sans-serif;
+    font-size: 30px;
+    color: #000;
+    background-color: whitesmoke;
+}
+.nav{
+     height: 50px;
+}
+.nav::after{
+    content: "Harsh Prasad";
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #082a4b;
+    color:#e1ecf5;
+    margin: 0%;
+    top: 0px;
+}
+.h1::after{
+    
+        content: "Weather App";
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}

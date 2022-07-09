@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  @apply font-body antialiased;
+}
+
+@tailwind utilities;
+
+body{
+  font-family: 'Nunito',sans-serif;
+
+}
+
+.footer{
+  background-color: black;
+  
+}
+.gray{
+color: gray !important;
+}
