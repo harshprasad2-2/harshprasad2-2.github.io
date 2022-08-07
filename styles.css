@@ -16,6 +16,7 @@ background: linear-gradient(45deg, rgb(24, 22, 39) 0%, rgba(73,65,122,1) 100%);
 }
 .container, .bg-dark{
     font-family: 'Raleway', sans-serif;
+transition:1s;
 }
 .container1{
     
